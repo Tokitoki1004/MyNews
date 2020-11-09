@@ -6,9 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>edit</title>
+        <title>編集</title>
     </head>
     <body>
-        <h1>編集画面</h1>
+        <h1>編集する</h1>
     </body>
 </html>
