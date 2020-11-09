@@ -15,15 +15,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//PHP・Laravel 09 課題3
+//PHP・Laravel 9-3課題
 Route::get('XXX', 'AAAController@bbb');
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('news/create', 'Admin\NewsController@add');
     Route::post('news/create', 'Admin\NewsController@create');
-//PHP.Laravel 09 課題4
+//PHP.Laravel  9-4課題
     Route::get('profile/create', 'Admin\ProfileController@add');
-    Route::post('profile/edit', 'Admin\ProfileController@edit');
+    Route::get('profile/edit', 'Admin\ProfileController@edit');
 });
 Auth::routes();
 
