@@ -27,6 +27,7 @@ Route::group(['prefix' => 'admin'], function() {
 //PHP.Laravel  13-3    
     Route::post('profile/create', 'Admin\ProfileController@create');
     Route::get('profile/edit', 'Admin\ProfileController@edit')->middleware('auth');
+    Route::post('profile/edit', 'Admin\ProfileController@update')->middleware('auth');
 });
 Auth::routes();
 

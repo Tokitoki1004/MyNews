@@ -45,7 +45,7 @@
                         </ul>
 
                         <!-- Right Side Of Navbar -->
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto" style="background-color:blue;">
                             
                             
                             <!-- Authentication Links -->
@@ -68,7 +68,7 @@
                                            </form>
                                        </div>
                                </li>
-                               @endguest
+                            @endguest
                             </ul>
                     </div>
                 </div>

@@ -30,10 +30,13 @@
                         <input type="text" class="form-control" name="title" value="{{ old('title') }}">  
                     </div>
                 </div>
+                <!-- 性別選択 -->
                 <div class="form-group row">
                     <label class="col-md-2">性別</label>
                     <div class="col-md-10">
-                        <input type="text" class="form-control" name="title" value="{{ old('title') }}">  
+                        <input type="radio" name="gender" value="male">男性  
+                        <input type="radio" name="gender" value="female">女性  
+                        <input type="radio" name="gender" value="nongender">選択しない
                     </div>
                 <div class="form-group row">
                     <label class="col-md-2">趣味</label>
