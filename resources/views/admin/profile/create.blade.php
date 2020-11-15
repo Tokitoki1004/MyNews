@@ -27,26 +27,24 @@
                 <div class="form-group row">
                     <label class="col-md-2">氏名</label>
                     <div class="col-md-10">
-                        <input type="text" class="form-control" name="title" value="{{ old('title') }}">  
+                        <input type="text" class="form-control" name="name" value="{{ old('name') }}">  
                     </div>
                 </div>
                 <!-- 性別選択 -->
                 <div class="form-group row">
                     <label class="col-md-2">性別</label>
                     <div class="col-md-10">
-                        <input type="radio" name="gender" value="male">男性  
-                        <input type="radio" name="gender" value="female">女性  
-                        <input type="radio" name="gender" value="nongender">選択しない
+                        <input type="text" class="form-control" name="gender" value="{{ old('gender') }}">
                     </div>
                 <div class="form-group row">
                     <label class="col-md-2">趣味</label>
                     <div class="col-md-10">
-                        <input type="text" class="form-control" name="title" value="{{ old('title') }}">  
+                        <input type="text" class="form-control" name="hobby" value="{{ old('hobby') }}">  
                     </div>
                 <div class="form-group row">
                     <label class="col-md-2">自己紹介欄</label>
                     <div class="col-md-10">
-                        <textarea class="form-control" name="body" rows="20">{{ old('body') }}</textarea>
+                        <textarea class="form-control" name="intro" rows="20">{{ old('intro') }}</textarea>
                     </div>
                     </div>
                 </div>
